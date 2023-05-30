@@ -76,7 +76,7 @@ header .navigation .navigation-items a:hover::before{
 }
 
 .home{
-  padding: 100px 20px;
+  padding: 100px 60px;
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -112,6 +112,8 @@ header .navigation .navigation-items a:hover::before{
 
 .home .content p{
   margin-bottom: 65px;
+  font-family:  'Ysabeau', sans-serif;
+  font-size: 1.5rem;
 }
 
 .home .content a{
@@ -155,7 +157,6 @@ header .navigation .navigation-items a:hover::before{
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .slider-navigation{
@@ -201,8 +202,6 @@ header .navigation .navigation-items a:hover::before{
   position: fixed;
   bottom: 15px;
   right: 45px;
-  /* bottom: 100px; */
-  /* right: 100px; */
 }
 .chat-icon a{
   color: darkgreen;
@@ -213,15 +212,18 @@ header .navigation .navigation-items a:hover::before{
   height: 50px;
   width: 50px;
 }
+.chat-icon a img:hover{
+  transform: scale(1.1);  
+}
 .brand-name{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* margin: 30px ; */
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  /* text-align: center; */
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -231,13 +233,9 @@ header .navigation .navigation-items a:hover::before{
   color: #6F1A07;
 }
 .brand-name p{
-  /* font-family: 'Playfair Display', serif; */
-  /* font-family: 'Poppins', sans-serif; */
   font-family: 'Ysabeau', sans-serif;
   font-size: 1.3rem;
-}
-.brand-name p{
-  margin: 5px 30px;
+  margin: 5px 3px;
 }
 .product-header{
   display: flex;
@@ -361,7 +359,6 @@ header .navigation .navigation-items a:hover::before{
 }
 .content-section .title{
   text-transform: uppercase;
-  /* font-size: 28px; */
   color: #81171B;
   
 }
@@ -502,21 +499,27 @@ header .navigation .navigation-items a:hover::before{
     width: 100%;
     height: auto;
     display: block;
-    /* margin: auto; */
-    /* margin-bottom: 10px; */
     padding: 20px;
   }
   .content-section .title{
     text-align: center;
-    /* font-size: 19px; */
   }
-  
+  .brand-name h1,p{
+    text-align: center;
+    display: block;
+  }
+  .brand-name h1{
+    font-size: 2rem;
+  }
+  .brand-name p{
+    font-size: 1rem;
+  }
   .content-section .title h1{
     font-size: 3rem;
   
   }
   .content-section .content2 h3{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 1.2rem;
   }
   .content-section .content2 p{
@@ -557,7 +560,7 @@ header .navigation .navigation-items a:hover::before{
   }
   
   .home .content p{
-    /* margin-bottom: 40px; */
+    font-size: 1rem;
   }
   
   .home .content a{
@@ -567,7 +570,7 @@ header .navigation .navigation-items a:hover::before{
   
   }
   .product-header h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .content-section .title h1{
     font-size: 2rem;
