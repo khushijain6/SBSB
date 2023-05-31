@@ -575,19 +575,18 @@ header .navigation .navigation-items a:hover::before{
     font-size: 2rem;
   
   }
-  .content-section .content2 h3{
+  /* .content-section .content2 h3{
     margin-top: 20px;
     font-size: 1rem;
+  } */
+  .content-section .content2 p{
+    text-align: start;
   }
   .content-section .content .button{
     text-align: center;
   }
   .content-section .content .button a{
     padding: 9px 30px;
-  }
-  .content-section .social{
-    /* text-align: center; */
-
   }
   .content-section .content2 .button a{
     background-color: #3d3d3d;
