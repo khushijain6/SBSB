@@ -506,7 +506,6 @@ header .navigation .navigation-items a:hover::before{
   }
   .brand-name h1,p {
     text-align: center;
-    /* display: block; */
   }
   .brand-name h1{
     font-size: 2rem;
@@ -580,11 +579,6 @@ header .navigation .navigation-items a:hover::before{
     margin-top: 20px;
     font-size: 1rem;
   }
-  .content-section .content2 p{
-    margin-top: 10px;
-    font-size: 0.5rem;
-    line-height: 1;
-  }
   .content-section .content .button{
     text-align: center;
   }
@@ -592,7 +586,8 @@ header .navigation .navigation-items a:hover::before{
     padding: 9px 30px;
   }
   .content-section .social{
-    text-align: center;
+    /* text-align: center; */
+
   }
   .content-section .content2 .button a{
     background-color: #3d3d3d;
