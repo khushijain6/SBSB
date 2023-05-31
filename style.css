@@ -504,9 +504,9 @@ header .navigation .navigation-items a:hover::before{
   .content-section .title{
     text-align: center;
   }
-  .brand-name h1,p{
+  .brand-name h1,p {
     text-align: center;
-    display: block;
+    /* display: block; */
   }
   .brand-name h1{
     font-size: 2rem;

@@ -33,7 +33,7 @@ body::after{
 }
 section{
   position: relative;
-  z-index: 3;
+  /* z-index: 3; */
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -88,6 +88,7 @@ section{
 }
 .contact-info-content p{
   font-size: 1em;
+  text-align: left;
 }
 .map{
   width: 50%;
@@ -99,7 +100,9 @@ section{
   height: 30rem;
   width: 30rem;
 }
-
+.chat-icon{
+  z-index: 2;
+}
 @media(max-width:991px){
   section{
     padding-top: 50px;
@@ -112,7 +115,6 @@ section{
   .contact-info{
     margin-bottom: 40px;
     width: 100%;
-    /* margin-left: 150px; */
   }
   .map{
     width: 100%;
@@ -122,11 +124,27 @@ section{
     width: 20rem;
   }
 }
-@media (max-width:415px){
+@media(max-width:410px){
   .section-header h2{
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
-  .map iframe{
-    width: 200px;
+  .contact-info-icon{
+    height: 63px;
+    width: 60px;
+    margin-left: 50px;
+  }
+  .contact-info-icon i{
+    font-size: 18px;
+  }
+  .contact-info-content{
+    margin-left: 10px;
+  }
+  .contact-info-content h4{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  .contact-info-content p{
+    font-size: 0.8em;
+    text-align: left;
   }
 }
