@@ -482,6 +482,9 @@ header .navigation .navigation-items a:hover::before{
   .home{
     padding: 50px 5px;
   }
+  .home:before{                                                              
+    background: rgba(235, 245, 217, 0.3);
+  }
   .container2{
     padding-top: 50px;
   }
