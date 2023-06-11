@@ -542,6 +542,9 @@ header .navigation .navigation-items a:hover::before{
 
 
 @media (max-width: 600px){
+  .home{
+    padding: 50px 20px;
+  }
   .home .content{
     margin-top: 2px;
     display: none ;
@@ -554,7 +557,7 @@ header .navigation .navigation-items a:hover::before{
   }
   
   .home .content h1 span{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
   } */
   section{
